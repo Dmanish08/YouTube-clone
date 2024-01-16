@@ -84,3 +84,9 @@
 .notifications{
     height: 22px;
 }
+
+.profile-photo{
+    height: 22px;
+    width: 30px;
+    border-radius: 50%;
+}
