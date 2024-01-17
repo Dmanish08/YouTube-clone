@@ -1,45 +1,46 @@
 .header{
     display: flex;
-    flex-direction: row;
-    height: 56px;
+    height: 57px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left-section{
     display: flex;
-    width: 300px;
+    width: 162px;
+    height: 24px;
     align-items: center;
+    margin-right: 70px;
 }
 
 .mid-section{
     display: flex;
     flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 500px;
+    max-width: 470px;
     align-items: center;
 }
 
 .right-section{
     display: flex;
-    width: 250px;
+    width: 182px;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
 }
 
 .hamburger-menu{
-    height:  22px;
-    margin-left: 30px;
+    height:  24px;
+    margin-left: 25px;
 }
 
 .youtube-logo{
-    height: 22px;
-    margin-left: 20px;
+    height: 20px;
+    margin-left: 22px;
 }
 
 .search-bar{
-    height: 38px;
-    width: 350px;
-    font-size: 16px;
+    height: 36px;
+    flex: 1;
     padding-left: 10px;
     box-shadow: inset 0px 1px 2px rgb(238 238 238);
     border-style: solid;
@@ -47,46 +48,61 @@
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     border-width: 1px;
-    margin-left: 0px;
+    margin-right: -1px;
+}
+
+.search-bar::placeholder{
+    font-family: 'Roboto', Arial;
+    font-size: 16px;
 }
 
 .search-button{
-    height: 26px;
+    height: 39px;
     width: 64px;
-    padding-right: 2px;
-    padding-left: 2px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    background-color: rgb(224, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(166, 165, 165);
+    border-color: rgb(207, 204, 204);
     border-top-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: 8px;
 }
 
-.voice-search{
-    height: 25px;
-    padding: 7px;
-    background-color: rgb(240, 239, 239);
-    border-radius: 50%;
-    margin-left: 8px;
+.search-icon{
+    height: 24px;
+}
+
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+}
+
+.voice-search-icon{
+    height: 24px;
 }
 
 .upload{
-    height: 22px;
+    height: 24px;
 }
 
 .apps{
-    height: 22px;
+    height: 24px;
 }
 
 .notifications{
-    height: 22px;
+    height: 24px;
 }
 
 .profile-photo{
-    height: 22px;
-    width: 30px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
 }
